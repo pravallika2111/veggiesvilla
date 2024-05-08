@@ -1,0 +1,150 @@
+/* 
+author: pravallika
+theme: eggies order
+*/
+*{
+   margin: 0;
+   padding: 0;
+   font-family: Arial, Helvetica, sans-serif; 
+}
+
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.clear-fix{
+    float: none;
+    clear: both;
+}
+
+
+
+/*css for menu*/
+.img-responsive{
+    width: 100%;
+}
+.logo{
+    width: 7%;
+    float: left;
+}
+.vv{
+    text-align: left;
+    float:left;
+    line-height: 40px;
+    display: inline;
+    font-weight: bold;
+    color:white;
+}
+.menu{
+    padding-top:2%;
+    padding-bottom:2%;
+    border-bottom: 1px solid rgb(67, 63, 63);
+    background-color:#00193A;
+}
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding:1%
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(243, 91, 91);
+}
+
+.menu ul li a:hover{
+    color:rgb(199, 52, 52);
+}
+
+/*css for main*/
+.main{
+    background-color: rgb(206, 242, 254);
+    padding: 0% 0%;
+}
+.code-4{
+    width: 18%;
+    background-color:white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+/*css for tables*/
+.table-design{
+    width:100%;
+}
+table tr th{
+border-bottom: 1px solid black;
+padding: 1%;
+text-align: left;
+}
+table tr td{
+    padding: 1%;
+}
+.btn-primary{
+    background-color:#0d6efd;
+    padding:1%;
+    color: white;
+    text-decoration:none;
+    font-weight:bold;
+}
+.btn-primary:hover{
+    background-color:rgb(106, 0, 254);
+}
+.btn-secondary{
+    background-color:#00c9a7;
+    padding:1%;
+    color: black;
+    text-decoration:none;
+    font-weight:bold;
+}
+.btn-secondary:hover{
+    background-color:#5dac51;
+    color:white;
+}
+.btn-danger{
+    background-color:#fb5456;
+    padding:1%;
+    color: white;
+    text-decoration:none;
+    font-weight:bold;
+}
+.btn-danger:hover{
+    background-color:rgb(255,0,0);
+}
+.btn-warning{
+    background-color:rgb(249, 255, 77);
+    padding:1%;
+    color: black;
+    text-decoration:none;
+    font-weight:bold;
+}
+.btn-warning:hover{
+    background-color:rgb(255, 213, 0);
+}
+/*css for footer*/
+.footer{
+    background-color: rgb(243, 91, 91);
+    color: white;
+}
+
+/*css for login*/
+.login{
+    border: 1px solid grey;
+    width: 30%;
+    margin:5% auto;
+    padding: 2%;
+    text-align: center;
+
+}
+
