@@ -81,7 +81,6 @@ if(isset($_SESSION['checkout'])){
                                 
                                 <div class="d-flex align-items-center">
                                     <form action="<?php echo SITEURL; ?>removeitem.php" method="post" class="mr-2">
-                                        <a href="<?php echo SITEURL;?>order.php?item_id=<?php echo $item_id;?>" class="btn btn-primary">Order Now</a>
                                         <input type="hidden" name="item_id" value="<?php echo $item_id; ?>">
                                         <button type="submit" class="btn btn-primary" style="float:right;">X Remove</button>
                                     </form>
