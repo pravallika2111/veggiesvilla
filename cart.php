@@ -78,13 +78,10 @@ if(isset($_SESSION['checkout'])){
                                     </form>
                                 </div>
                                 <p>Total: <span style='color:blue'>₹<?php echo $itemTotal; ?></span></p><br>
-                                
-                                <div class="d-flex align-items-center">
-                                    <form action="<?php echo SITEURL; ?>removeitem.php" method="post" class="mr-2">
+                                <form action="<?php echo SITEURL; ?>removeitem.php" method="post" class="mr-2">
                                         <input type="hidden" name="item_id" value="<?php echo $item_id; ?>">
-                                        <button type="submit" class="btn btn-primary" style="float:right;">X Remove</button>
+                                        <button type="submit" class="btn btn-primary">X Remove</button>
                                     </form>
-                                </div>
                             </div>
                         </div>
                         <?php
